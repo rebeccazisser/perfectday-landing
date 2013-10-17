@@ -868,8 +868,11 @@
 
 	#header-wrapper
 	{
-		background: url('../images/banner.jpg') center center;
-		background-size: cover;
+		background: url('../images/context-01.jpg') center center;	
+	-webkit-background-size: cover;
+ -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 	}
 	
 		#header-wrapper:before
@@ -1057,6 +1060,8 @@
 			color: #eee;
 			color: rgba(255,255,255,0.5);
 			text-transform: uppercase;
+
+
 		}
 
 /*********************************************************************************/
@@ -1134,3 +1139,12 @@
 				{
 					color: #fff;
 				}
+
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+
+#footer{
+	margin-left: 200px;
+
+}
