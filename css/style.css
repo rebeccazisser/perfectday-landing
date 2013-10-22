@@ -42,6 +42,10 @@
 
 }
 
+#nav > ul {
+	background-color: black;
+}
+
 .qr{
 	width:100px;
 	height:100px;
