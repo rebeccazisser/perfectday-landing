@@ -308,7 +308,7 @@
 
 		.homepage #header
 		{
-			height: 573px;
+			bottom:50px;
 		}
 
 /*********************************************************************************/
@@ -357,12 +357,19 @@
 		left: 0;
 		width: 100%;
 		text-align: center;
+		color:#fff;
+		background-color: #000;
+		opacity:0.4;
+
+		
+		
+
 	}
 
 		#nav > ul > li > ul
 		{
 			display: none;
-		}
+					}
 
 		#nav > ul
 		{
@@ -383,7 +390,7 @@
 			#nav > ul > li > span
 			{
 				display: block;
-				color: #eee;
+				color: #fff;
 				color: rgba(255,255,255,0.75);
 				text-transform: uppercase;
 				text-decoration: none;
@@ -397,6 +404,7 @@
 				-ms-transition: all .25s ease-in-out;
 				transition: all .25s ease-in-out;
 				outline: 0;
+
 			}
 			
 			#nav > ul > li:hover > a,
